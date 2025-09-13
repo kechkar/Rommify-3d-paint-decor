@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint & Deco | About Us</title>
+    <!-- Font Awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="CSS//style.css">
+    <style>
+       
+        #page-header {
+            position: relative;
+            width: 100%;
+            height: 80px;
+        }
+
+        #page-header img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        #page-header .text-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #3c3c3b;
+            font-size: 40px;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        #page-header h2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 40px;
+            font-weight: bold;
+            color: white;
+        }
+
+        /* Hero Section */
+        #page-header {
+            background: url('paint-deco-bg.jpg') no-repeat center center/cover;
+            height: 300px;
+            text-align: center;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #page-header h2 {
+            font-size: 40px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        /* About Section */
+      /* About Section */
+#about-head {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background: #f9f9f9;
+}
+
+#about-head img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+#about-head div {
+    max-width: 50%;
+}
+
+#about-head h2 {
+    font-size: 2rem;
+    color: #222;
+}
+
+#about-head p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+/*about2*/
+#about-head2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: #f9f9f9;
+    gap: 20px;
+}
+
+#about-head2 .text-content {
+    flex: 1;
+    max-width: 50%;
+}
+
+#about-head2 img {
+    flex: 1;
+    max-width: 45%;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+#about-head2 h2 {
+    font-size: 2.5rem;
+    color: #222;
+}
+
+#about-head2 p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+/* Features Section */
+#features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background: #fff;
+    text-align: center;
+}
+
+.fe-box {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.fe-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.fe-box h6 {
+    margin: 15px 0;
+    font-size: 1.3rem;
+    color: #222;
+}
+
+.fe-box p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.fe-box:hover {
+    transform: scale(1.05);
+}
+
+/* Newsletter Section */
+#newsLater {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-image: url(./images/banner-img3.jpg);
+    color: white;
+    text-align: left;
+}
+
+.newsText h4 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.newsText p {
+    font-size: 1.1rem;
+}
+
+.form {
+    display: flex;
+    gap: 10px;
+}
+
+.form input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #ff6600;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.form button:hover {
+    background: #e65c00;
+}
+
+    </style>
+</head>
+<body>
+    <!-- Header -->
+      <!-- Header -->
+<header id="header">
+    <a href="#"><img class="logo" src="./images/logoPaiints.png" alt=""></a>
+    <nav>
+      <ul id="navbar">
+          <li><a  href="index.html">Home</a></li>
+          <li><a  href="shop.html">Shop</a></li>
+          <li><a  href="blog.html">Blog</a></li>
+          <li><a class="active" href="about.html">About</a></li>
+          <li><a  href="contact.html">Contact</a></li>
+          <li class="lg-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping head-cart"></i></a></li>
+          <a href="#" id="close" > <i class="fa-solid fa-xmark"></i></a>
+      </ul>
+
+    </nav>
+    <div id="mobile">
+      <a href="cart.html"><i class="fa-solid fa-bag-shopping head-cart"></i></a>
+      <i id="bar" class="fa-solid fa-bars"></i>
+    </div>
+</header>
+
+      <!-- Banner Section with image -->
+      <section id="page-header">
+        <img src="l.jpg" alt="Banner Image">
+        <div class="text-overlay">Get To Know Us</div>
+    </section>
+
+   <!-- About Section -->
+<section id="about-head">
+    <img src="ss.jpg" alt="About Us Image">
+    <div>
+        <h2>Our Story</h2>
+        <p>Welcome to Roomify, where colors come to life and spaces transform into works of art. Our journey began with a simple passion: to bring creativity, elegance, and personal expression into every home and workspace. Founded on the belief that the right blend of colors and design can uplift emotions and inspire greatness, Roomify has become a trusted name in paint and décor solutions.</p>
+           <p> Our team of expert designers and craftsmen work tirelessly to curate high-quality paint collections and decorative solutions tailored to every taste and style. Whether you're looking to refresh your home with modern minimalism, vintage charm, or bold statements, we have the perfect palette and décor elements to make your vision a reality.
+            </p>
+    </div>
+</section>
+<section id="about-head2">
+    <div class="text-content">
+        <h2>Our Mission</h2>
+        <p>At Roomify, we are committed to sustainability and innovation. Our eco-friendly paints not only offer vibrant, lasting colors but also ensure a healthier environment for you and your loved ones. We take pride in using premium materials and cutting-edge techniques to deliver excellence in every project.</p>
+       <p> Join us on our mission to redefine spaces with beauty and purpose. Let Roomify help you turn every room into a masterpiece. Together, we can create spaces that reflect your personality, creativity, and style.</p>
+           <p>Discover the art of transformation with Roomify – where every wall tells a story
+            </p>
+    </div>
+    <img src="Screenshot 2025-01-09 015514.jpg" alt="Our Story Image">
+</section>
+
+<!-- Features Section -->
+<section id="features">
+    <div class="fe-box">
+        <img src="pd1.jpg" alt="Global Offices">
+        <h6>Exemple of our works</h6>
+        <p>Exemple of our works.</p>
+    </div>
+    <div class="fe-box">
+        <img src="pd3.jpg" alt="Employees">
+        <h6>Exemple of our works</h6>
+        <p>Exemple of our works.</p>
+    </div>
+    <div class="fe-box">
+        <img src="pd2.jpg" alt="Customers">
+        <h6>Exemple of our works</h6>
+        <p>Exemple of our works.</p>
+    </div>
+</section>
+
+<!-- Newsletter Section -->
+<section id="newsLater">
+    <div class="newsText">
+        <h4>Stay Connected</h4>
+        <p>Sign up for our newsletter to receive the latest updates and exclusive offers.</p>
+    </div>
+    <form class="form">
+        <input type="email" placeholder="Your Email Address">
+        <button type="submit">Subscribe</button>
+    </form>
+</section>
+
+
+   <!-- Footer section -->
+   <footer class="section-p1">
+    <div class="col">
+      <img src="./images/logoPaiintfoo.png" alt="logo" class="logo">
+      <h4> <span>Contact</span></h4>
+      <p>
+        <strong>Address: </strong>B2/238 Cyber Police Station Road, Rohini
+        Sector 17, Algeria
+      </p>
+      <p><strong>Phone: </strong>+01 2222 3665 / (+91) 01 2345 6763</p>
+      <p><strong>Hours: </strong>10:00 - 18:00, Mon - Sat</p>
+  
+      <div class="follow">
+        <h4>Follow <span>us</span></h4>
+        <div class="icon">
+          <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+          <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+          <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+          <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col">
+      <h4>About</h4>
+      <a href="./subpages/about.html">About Us</a>
+      <br>
+      <a href="./subpages/blog.html">Delivery Information</a>
+      <br>
+      <a href="./subpages/blog.html">Privacy Poilcy</a>
+      <br>
+      <a href="./subpages/blog.html">Terms &amp; Condition</a>
+      <br>
+      <a href="./subpages/contact.html">Contact Us</a>
+    </div>
+    <div class="col">
+      <h4>My Account</h4>
+      <a href="#newsLetter">Sign In</a>
+      <br>
+      <a href="./subpages/cart.html">View Cart</a>
+      <br>
+      <a href="./subpages/shop.html">My WishList</a>
+      <br>
+      <a href="./subpages/sproduct.html">Track My Order</a>
+      <br>
+      <a href="./subpages/contact.html">Help</a>
+    </div>
+  
+    <div class="col install">
+      <h4>Install App</h4>
+      <p>From App Store or Google Play</p>
+      <div class="row">
+        <img src="./pay/app.jpg" alt="app">
+        <img src="./pay/play.jpg" alt="play">
+      </div>
+      <p>Secured Payment Gateways</p>
+      <img src="./pay/pay.png" alt="pay">
+    </div>
+    <div class="copyright">
+      <p><span>©2025</span> Paint&Decor. All Rights Reseverd.</p>
+    </div>
+  </footer>
+</body>
+</html>
